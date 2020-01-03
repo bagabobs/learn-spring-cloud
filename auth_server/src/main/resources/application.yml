@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: auth_server
+server:
+  port: ${PORT:8999}
+  servlet:
+    context-path: /spring-security-oauth-server

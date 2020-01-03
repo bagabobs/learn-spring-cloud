@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: "account-service"
+server:
+  port: ${PORT:8998}
+logging:
+  level:
+    org.springframework.security: debug
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      client-id: baga.gusdiana
+      client-secret: 123456
+      access-token-uri: http://localhost:8999/oauth/token
+      user-authorization-uri: http://localhost:8999/oauth/authorize
+    resource:
+      user-info-uri: http://localhost:8999/user

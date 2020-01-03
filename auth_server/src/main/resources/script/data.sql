@@ -1,0 +1,2 @@
+INSERT INTO `oauth_client_details` (`client_id`, `client_secret`, `scope`, `authorized_grant_types`, `access_token_validity`, `additional_information`) VALUES ('piotr.minkowski', '123456', 'read', 'authorization_code,password,refresh_token,implicit', '900', '{}');
+INSERT INTO `oauth_client_details` (`client_id`, `client_secret`, `scope`, `authorized_grant_types`, `access_token_validity`, `additional_information`) VALUES ('john.smith', '123456', 'write', 'authorization_code,password,refresh_token,implicit', '900', '{}');
